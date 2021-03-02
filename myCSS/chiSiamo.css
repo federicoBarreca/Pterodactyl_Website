@@ -1,0 +1,27 @@
+label{
+    padding: 1.5%;
+    box-shadow: 7px 5px 15px rgb(80, 80, 80);
+
+}
+
+.row{
+    margin-right:0%;
+    margin-left:0%;
+}
+
+div.col.text-center label{
+    font-size:120%;
+    padding: 2%;
+    font-weight: normal;
+}
+
+div.col.text-center label p{
+    font-style: italic;
+    font-weight: bold;
+}
+
+#topLbl{
+    font-size:150%;
+    margin-top:2%;
+    margin-bottom:3%;
+}

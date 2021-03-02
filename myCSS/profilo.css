@@ -1,0 +1,60 @@
+#lbl{
+    box-shadow: 7px 5px 15px rgb(80, 80, 80);
+    margin-right: 0.5%;
+    font-weight: normal;
+}
+
+#catLbl{
+    font-weight: bold;
+}
+
+#area{
+    box-shadow: 7px 5px 15px rgb(80, 80, 80);   
+}
+
+#totBtn{
+    border:1px solid black;
+    width: 200px;
+}
+
+#topCont{
+    padding-top: 1%;
+    margin-bottom:1%;
+}
+
+#categoria{
+    width: 150px;
+}
+
+#area1{
+    border:1px solid black;
+    background-color: white;
+    margin-bottom:1%;
+    padding-top: 1.3%;
+    padding-bottom:1.3%;
+}
+
+#area2{
+    border:1px solid black;
+    background-color: white;
+    margin-bottom:1%;
+    padding-bottom: 1.5%;
+}
+
+div.col-3.text-center p{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#class0{
+    font-weight: bold;
+}
+
+#centerBox{
+    padding-top: 1%;
+    margin-bottom:1%;
+}
+
+#centerBox #lbl p{
+    font-weight: bold;
+}

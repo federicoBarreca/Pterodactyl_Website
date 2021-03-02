@@ -1,0 +1,60 @@
+.row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+button{
+    border:1px solid black;
+    margin-top:60%; 
+    width: 200px; 
+    margin-right:15%;
+    box-shadow: 7px 5px 15px rgb(80, 80, 80);
+}
+
+#imgCont{
+    border:1px solid black;
+    background-color: rgba(255,255,255,0.7);
+    margin-left:5%; margin-top:1%;
+    border-radius:100%;
+    box-shadow: 7px 5px 15px rgb(80, 80, 80);
+}
+
+#area{
+    border:1px solid black;
+    background-color: white;
+    margin-right: 5%;
+    margin-top:2%;
+    box-shadow: 7px 5px 15px rgb(80, 80, 80);
+}
+
+#n3{
+    margin-left: 6%;
+    padding-top:8%;
+    width: 400px;
+}
+
+select{
+    width: 150px;
+}
+
+#under{
+    margin-top: 2.5%;
+    padding:1%;
+    margin-right:30%;
+    margin-bottom: 1.5%;
+    font-size:25px;
+}
+
+#sideInfo{
+    padding-top:5%;
+}
+
+#btmLbl{
+    font-weight: normal !important;
+    box-shadow: 7px 5px 15px rgb(80, 80, 80);
+}
+
+h4{
+    padding-top:3.5%;
+    padding-bottom:2%;
+}

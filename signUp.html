@@ -1,0 +1,107 @@
+<!doctype html>
+
+<html lang="it">
+
+<head>
+
+  <title>signUp</title>
+  <meta name="titolo" content="signup">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="myCSS/style.css">
+  <link rel="stylesheet" href="myCSS/signUp.css">
+  <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+
+</head>
+
+<body onload='createNavbar();createFootbar();Darkness();fadein();'>
+<div class="fadeDiv">
+
+  <div class="container text-center" id="mainCont">
+    <!--IMMAGINE E TESTO-->
+    <p><img class="mb-4" id="img" src="pictures/ptero.png" alt="" width="230" height="230"/></p>
+    <label id="lbl">
+      <h3 id="reg">Registrati</h3>
+      <h5>I campi con * sono obbligatori.</h5>
+    </label>
+
+    <div class="container rounded border txt-center" id="cont">
+        <!--LA FORM INIZIA QUI-->
+        <form action="iscrizione.php" class="form-sign" method="POST" name="FormRegistrazione">
+
+          <!--primo gruppo di input-->
+          <div class="row">
+            <div class="col-6 text-left">
+              <label class="bold">*Username</label>
+              <input type="text" id="username" name="username" class="form-control" maxlength="15" required onchange="ven();" />
+            </div>
+            <div class="col-6 text-left">
+              <label class="bold">*Email</label>
+              <input type="email" name="email" class="form-control" minlength="5" required />
+            </div>
+          </div>
+
+          <!--secondo gruppo di input-->
+          <div class="row">
+            <div class="col-6 text-left">
+              <label class="bold">Nome</label>
+              <input type="text" name="nome" id="nome" class="form-control" />
+            </div>
+            <div class="col-6 text-left">
+              <label class="bold">Cognome</label>
+              <input type="text" name="cognome" id="cognome" class="form-control" />
+            </div>
+          </div>
+
+          <!--terzo gruppo di input-->
+          <div class="row">
+            <div class="col-5 text-left">
+              <label class="bold">Età</label>
+              <input type="number" name="eta" id="eta" class="form-control" min=1 max=150 maxlength="3" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-1">
+              <label class="bold">Sesso</label><br>
+              <select name="sesso">
+                <option></option>
+                <option value="Maschio">Maschio</option>
+                <option value="Femmina">Femmina</option>
+                <option value="Altro">Altro</option>
+              </select>
+            </div>
+          </div>
+
+
+          <!--quarto gruppo di input-->
+          <div class="row">
+            <div class="col-6 text-left">
+              <label class="bold">*Password</label>
+              <input type="password" name="password" id="Password" class="form-control" minlength="8" placeholder="Almeno 8 caratteri" onkeyup="checkPassword();" required />
+            </div>
+            <div class="col-6 text-left">
+              <label class="bold">*Conferma Password</label>
+              <input type="password" id="confermaPassword" class="form-control" minlength="8" onkeyup="checkPassword();" required />
+              <div class="registrationFormAlert" id="divCheckPw"></div>
+            </div>
+          </div>
+
+          <!--bottone per il submit e FINE FORM-->
+          <div class="row" id="lastRow">
+            <button name="subBtn" id="subBtn" class="btn btn-lg btn-primary btn-block" type="submit">Registrati</button>
+          </div>
+        </form>
+      </div>
+  </div>
+</div>
+
+<!--Spazio per gli script-->
+  <script src="js/jquery.min.js" type="text/javascript"></script>
+  <script src="js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="myJS/funzioni.js" type="text/javascript"></script>
+  <script src="myJS/password.js" type="text/javascript"></script>
+  <script src="myJS/barre.js" type="text/javascript"></script>
+</body>
+
+</html>

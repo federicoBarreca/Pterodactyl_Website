@@ -1,0 +1,53 @@
+body {
+    padding-top: 70px;
+    font-family: Papyrus;
+    font-size: 15px;
+    background-size: cover;
+    background-repeat: repeat; 
+    position: relative;
+    margin: 0;
+    padding-bottom: 80px;
+    min-height: 100%;
+}
+
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.demo {
+    margin: 0 auto;
+    padding-top: 64px;
+    max-width: 640px;
+    width: 94%;
+}
+
+.demo h1 {
+    margin-top: 0;
+}
+
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 0.1rem;
+}
+
+.rounded {
+    border-radius:23px!important
+  }
+
+label{
+    border-radius:23px!important;
+    padding: 0.5%;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+  
+.fadeDiv{
+    display: none;
+}

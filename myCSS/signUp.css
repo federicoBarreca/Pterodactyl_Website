@@ -1,0 +1,45 @@
+#img{
+    box-shadow: 7px 5px 15px rgb(80, 80, 80);
+    margin-bottom: 1.5%;
+}
+
+#lbl{
+    font-weight: normal;
+    box-shadow: 7px 5px 15px rgb(80, 80, 80);
+}
+
+#reg{
+    font-weight: bold;
+}
+
+#cont{
+    box-shadow: 7px 5px 15px rgb(80, 80, 80);
+    margin: 19px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border:1px solid black; 
+    background-color: white;
+}
+
+#subBtn{
+    margin-bottom: 20px;
+    margin-top: 5%;
+}
+
+#mainCont{
+    width: 800px;
+}
+
+#lastRow{
+    padding-top: 0%;
+}
+
+.row{
+    padding-top:2%;
+}
+
+select[name="sesso"]{
+    width: 100px;
+}

@@ -1,0 +1,73 @@
+#downLbl {
+    box-shadow: 7px 5px 15px rgb(80, 80, 80);
+    font-weight: normal !important;
+    margin-top:7.5%;
+    font-size: 25px
+}
+
+#alertLbl{
+    box-shadow: 7px 5px 15px rgb(80, 80, 80);
+    font-weight: normal !important;
+    font-size: 25px;
+    padding: 1%;
+}
+
+#leftCont {
+    margin: 19px;
+    max-width: 410px;
+    padding-left: 35px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: white;
+    box-shadow: 7px 5px 15px rgb(80, 80, 80);
+}
+
+#choice{
+    margin-bottom: 20px;
+}
+
+#area{
+    box-shadow: 7px 5px 15px rgb(80, 80, 80);
+    min-height: 65%;
+    font-size: 18px;
+    font-family: Arial;
+    border:1px solid black;
+    background-color: white;
+    padding: 13px;
+}
+
+#player{
+    font-family: Arial;
+    margin-top: 10px;
+    box-shadow: 7px 5px 15px rgb(80, 80, 80);
+}
+
+#lbl{
+    box-shadow: 7px 5px 15px rgb(80, 80, 80);
+    font-weight: normal;
+}
+
+#row{
+    margin-left:0px;
+    margin-right: 0px;
+}
+
+#categoria{
+    width: 200px;
+}
+
+#b{
+    background-color:green;
+}
+
+#rightCont{
+    padding-top: 10px;
+}
+
+#catCont{
+    margin-bottom:25px;
+}
+
+h3{
+    margin-left:2%
+}

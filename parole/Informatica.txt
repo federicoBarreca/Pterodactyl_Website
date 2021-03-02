@@ -1,0 +1,103 @@
+ printf("Hello, World!");§
+int main(){}§
+#include <stdio.h>§
+int i, n, t1 = 0, t2 = 1, nextTerm;§
+for (i = 1; i <= n; ++i){}§
+scanf("%lf %lf %lf", &n1, &n2, &n3);§
+if(n1>=n2 && n1>=n3) printf("%.2f", n1);§
+int pthread_create(pthread_t *thread, const pthread_attr_t *attr, void * (*start_routine) (void*), void *arg);§
+#include <string.h>§
+#include <stdlib.h>§
+#include <unistd.h>§
+#include <pthread.h>§
+#include <errno.h>§
+#include <ctype.h>§
+static void* thread_start(void *arg){}§
+struct thread_info *tinfo;§
+void pthread_exit(void *value_ptr);§
+int pthread_join(pthread_t thread, void **value_ptr);§
+scanf("%d",&mat[i][j]);§
+int mat[10][10],i,j;§
+void *calloc(size_t nitems, size_t size);§
+int *a = (int*)calloc(n, sizeof(int));§
+int mkfifo(const char *pathname, mode_t mode);§
+while(true){ System.out.println("loop");}§
+pid_t id2 = fork();§
+public void run(){}§
+new Thread(p).start();§
+public static void main(String args[]){}§
+Student.setName("Bob");§
+Student.getName();§
+<meta name="viewport" content="width=device-width, initial-scale=1">§
+<link rel="stylesheet" href="css/bootstrap-grid.css">§
+<div class="col-8 container text-center" style="padding-top: 10px;"></div>§
+<?php session_start(); include 'myPHP/funzioniphp.php'; ?>§
+public Object put(Object arg0, Object arg1);
+if(cognome.equals(p.getCognome()) && nome.equals(p.getNome()) && eta == p.getEta()) return true; else return false; }§
+ArrayList<Persona> lista = new ArrayList<Persona>(0);§
+HashSet<Persona> hash = new HashSet<Persona>(0);§
+public interface MyInterface {}§
+public class MyInterfaceImpl implements MyInterface {}§
+public class MyInterfaceImpl implements MyInterface, MyOtherInterface {}§
+JButton b=new JButton("click");§
+JFrame f=new JFrame(); //creating instance of JFrame§
+f.setVisible(true); //making the frame visible§
+f.setSize(400,500); //400 width and 500 height§
+frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);§
+import javax.swing.*;§
+JTextField tf = new JTextField(10); // accepts upto 10 characters§
+JPanel panel = new JPanel();§
+function createNavbar() {}§
+JMenuItem m11 = new JMenuItem("Open");§
+import java.awt.*;§
+import java.io.*;§
+public class MyClass {}§
+if (x<y) (x, y) else (y, x)§
+val l=List.range(min, max+1).map(f(_))§
+strings.map(_.length).reduce(max)§
+def max(l:List[String]):Int = con(l).map(_.length).reduce((x,y) => if(x>y) x else y)§
+etaEsami.maxBy { _._2 }._1§
+val contatore = contaEsami(esami.map(x => x._1), List.range(0, eta.length).map(x => 0))§
+l.filter(x => x._2 <= e).groupBy(x => x._3).mapValues(_.size).toList.maxBy(x => x._2)._1§
+char c[5] = {'a', 'b', 'c', 'd', '\0'};§
+if(cout << x << " " && x++ < N && main()) {}§
+return 0;§
+$username = $_POST['username'];§
+$result=pg_query_params($dbconn, $q1, array($username,$punti,$parole,$puntiperminuto,$categoria,$data));§
+echo "<div style='padding-left:5%'><br>Italiano:</div><br>";§
+var inputSplit = $("#player").val().split(" ");§
+for (var i = 0; i < inputSplit.length; i++) {}§
+while(a<10){ a++;}§
+if((w[i][j] == '\0') || (w[i][j] == ' ')) ++counter;§
+while (number > 0){ factorial *= number; --number;}§
+gcc -o hello hello.c§
+g++ -wall -o program program.c§ 
+javac main.java ex.java§
+java main§
+scalac main.scala ex.scala§
+scala main§
+chmod 777 filename§
+int chmod(const char *path, mode_t mode);§
+#include <sys/stat.h>§
+addw $3, %cx§
+pushl %ebx§
+movl 8(%esp), %edx§
+addl 12(%esp), %ecx§
+cmpl (%edx, %ecx, 4), %ebx§
+je FND§
+jmp END§
+popl  %ebx§
+ret§
+if(!(isset($_POST['sendFeedback']))){ header("Location: index.php");}§
+d={"UPPER CASE":0, "LOWER CASE":0}§
+print(7 in var5.values())§
+for num in range(lower, upper + 1):§
+order = len(str(num))§
+digit = temp % 10§
+sum += digit ** order§
+var httpRequest = new XMLHttpRequest();§
+httpRequest.send();§
+if (e.target.readyState == XMLHttpRequest.DONE && e.target.status == 200) {}§
+,>++++++[<-------->-],,[<+>-],<.>.§
+
+

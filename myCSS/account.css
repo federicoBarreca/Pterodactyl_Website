@@ -1,0 +1,72 @@
+#area{
+    box-shadow: 7px 5px 15px rgb(80, 80, 80);
+    border:1px solid black;
+    background-color: white;
+    padding:5%;
+}
+
+#topLbl{
+    padding: 2%;
+    box-shadow: 7px 5px 15px rgb(80, 80, 80);
+    margin-bottom:3.5%;
+}
+
+.row{
+    margin-right:0%; 
+    margin-left:0%;
+}
+
+a.dropdown-toggle.form-control{
+    width: 170px;
+}
+
+#leftCont{
+    margin-left:5%;
+}
+
+input.form-control{
+    width: 250px;
+    margin-bottom:7%;
+}
+
+#pics{
+    margin-bottom:10%; 
+    margin-top: 10%;
+}
+
+#select{
+    width: 100px;
+    margin-right: 5.4%;
+    margin-top: 6%;
+}
+
+input[name="eta"]{
+    width: 50px;
+    margin-bottom: 13%
+}
+
+#subBtn{
+    margin-right: 7%;
+}
+
+#dataCont{
+    margin-top: 22.3%;
+}
+
+#rightCont{
+    margin-top: 25%;
+}
+
+#dataLbl{
+    margin-bottom: 5%;
+}
+
+#firstDataLbl{
+    margin-bottom:13%;
+    font-weight: bold;
+    font-size: 27px;
+}
+
+li.text-center{
+    margin-bottom: 10%;
+}
